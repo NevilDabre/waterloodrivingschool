@@ -462,43 +462,40 @@
 		<!-- Start Pricing Area -->
 		<section id="courses" class="section-full">
 			<div class="container">
-				<div class="row justify-content-center">
-						<div class="modal fade" id="myModal" role="dialog">
-								<div class="modal-dialog">
-								
-									<!-- Modal content-->
-									<div class="modal-content">
-										<div class="modal-header">
-											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title">Modal Header</h4>
-										</div>
-										<div class="modal-body">
-												<div class="col-lg-12 mt-30 grey-bg">
-														<form id="contactForm" action="" method="post" class="contact-form">
-															<div class="single-input color-2 mb-10">
-																<input type="text" name="fname" placeholder="Full Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Full Name'" required>
-															</div>
-															<div class="single-input color-2 mb-10">
-																<input type="email" name="email" placeholder="Email Address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'" required>
-															</div>
-															<div class="single-input color-2 mb-10">
-																<input type="text" name="phone" placeholder="Phone Number" pattern="\D*([2-9]\d{2})(\D*)([2-9]\d{2})(\D*)(\d{4})\D*" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'" required>
-															</div>
-															<div class="single-input color-2 mb-10">
-																<textarea name="message" placeholder="Type your message here..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Type your message here...'" required></textarea>
-															</div>
-															<div class="d-flex justify-content-end"><button class="mt-10 primary-btn d-inline-flex text-uppercase align-items-center">Send Message<span class="lnr lnr-arrow-right"></span></button></div>
-															<div class="alert"></div>
-														</form>
-													</div>
-										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-										</div>
+					<div class="modal fade" id="myModal" role="dialog">
+							<div class="modal-dialog">
+							
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title">Registration</h4>
 									</div>
-									
+									<div class="modal-body">
+											<div class="col-lg-12">
+													<form>
+														<div class="single-input color-2 mb-10">
+															<input type="text" name="fname" placeholder="Full Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Full Name'" required>
+														</div>
+														<div class="single-input color-2 mb-10">
+															<input type="email" name="email" placeholder="Email Address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'" required>
+														</div>
+														<div class="single-input color-2 mb-10">
+															<input type="text" name="phone" placeholder="Phone Number" pattern="\D*([2-9]\d{2})(\D*)([2-9]\d{2})(\D*)(\d{4})\D*" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'" required>
+														</div>
+													</form>
+												</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="primary-btn d-inline-flex text-uppercase align-items-center" data-dismiss="modal">Submit</a>
+										<button type="button" class="primary-btn d-inline-flex text-uppercase align-items-center" data-dismiss="modal">Close</button>
+									</div>
 								</div>
+								
 							</div>
+						</div>
+
+				<div class="row">
 					<div class="col-lg-8">
 						<div class="product-area-title text-center">
 							<p class="text-uppercase">Get started with various courses</p>
@@ -537,7 +534,7 @@
 												<p class='description'>Car for the Road Test</p>
 											</div>
 											<div class='sign-up-button'>
-													<a href="#" class="primary-btn banner-btn">Select</a>
+													<a href="#" class="primary-btn banner-btn" data-toggle="modal" data-target="#myModal">Select</a>
 											</div>
 										</div>
 									</div>
@@ -554,7 +551,7 @@
 												<p class='description'>Car for the Road Test</p>
 											</div>
 											<div class='sign-up-button'>
-													<a href="#" class="primary-btn banner-btn">Select</a>
+													<a href="#" class="primary-btn banner-btn" data-toggle="modal" data-target="#myModal">Select</a>
 											</div>
 										</div>
 									</div>
@@ -571,7 +568,7 @@
 												<p class='description'>Car for the Road Test</p>
 											</div>
 											<div class='sign-up-button'>
-													<a href="#" class="primary-btn banner-btn">Select</a>
+													<a href="#" class="primary-btn banner-btn" data-toggle="modal" data-target="#myModal">Select</a>
 											</div>
 										</div>
 									</div>
